@@ -13,7 +13,6 @@ function App() {
   const [foodData, setFoodData] = useState([])
   const [foodId, setFoodId] = useState("656329")
   
-
   return (
     <div>
       <Nav />
@@ -26,7 +25,6 @@ function App() {
           <FoodDetails foodId={foodId}/>
         </InnerContainer>
       </Container>
-      
       
     </div>
   )

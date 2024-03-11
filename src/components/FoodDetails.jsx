@@ -8,7 +8,6 @@ export default function FoodDetails({foodId}){
     const URL = `https://api.spoonacular.com/recipes/${foodId}/information`
 
     
-
     useEffect(() => {
         async function fetchFood() {
             const res = await fetch(`${URL}?apiKey=${import.meta.env.VITE_APP_API_KEY}`);
@@ -16,9 +15,8 @@ export default function FoodDetails({foodId}){
             console.log(data);
             setFood(data)
             setIsLoading(false) //BECAUSE AFTER SETFOOD IS WHEN DATA IS LOADED
-
-
         }
+        
         fetchFood()
     }, [foodId])
 
