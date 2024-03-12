@@ -31,3 +31,23 @@
     font-weight: bold;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 680px){
+    .itemContainer{
+        margin-top: 30px;
+    }
+    
+    .imageContainer{
+        width: 80px;
+        height: 80px;
+    }
+    
+    .nameContainer{
+        margin-left: 20px;
+    }
+       
+    .amount{
+
+        margin-top: 5px;
+    }
+ }

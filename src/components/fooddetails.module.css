@@ -40,3 +40,16 @@
 .recipeInstructions li{
     margin: 10px 0px;
 }
+
+
+@media screen and (max-width: 680px){
+    .recipeCard{
+        max-width: 150px;
+        margin: 10px auto;
+    }
+    
+    .recipeName{
+        font-size: 16px;
+    }
+    
+ }

@@ -3,3 +3,10 @@
     padding: 10px;
     margin: 10px;
 }
+
+@media screen and (max-width: 680px){ 
+    .innerContainer {
+        padding: 5px;
+        margin: 5px;
+    }
+}
